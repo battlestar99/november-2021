@@ -1,0 +1,33 @@
+1. Java - Programming language 
+
+2. Selenium webdriver - programming libary - used for web UI testing 
+
+3. TestNG/Cucumber >> Testing library 
+
+4. code management >> maven, git, github, jenkins
+
+What is a computer programming or programming language? 
+
+create set of instructions - 
+
+addition of 2 numbers >> 
+store number 5 in the computer
+add number 5 with number 10 
+print the result of addition 
+
+java python C C++ 
+
+1. jdk to be installed in your computer 
+
+2. code editor - eclipse 
+
+
+
+
+
+
+
+
+
+
+
