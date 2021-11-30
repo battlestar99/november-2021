@@ -1,0 +1,229 @@
+Java Programming language 
+
+Notes
+sample codes 
+
+Homework 
+
+what is computer program? 
+
+set of instructions that we can give to the computer to execute some specific tasks 
+
+how we give instructions to the computer is through the programming language 
+
+java C C# python javascript 
+
+what are the basic concepts and what we are going to learn? 
+
+problem-solution 
+
+1. how we can store data in a computer - how to store data, use them and 
+manage them
+
+you dont have car 
+
+do you have money to buy a car >> yes/no
+how much money you have >> number 
+is it worth buying a car >> train journey , buy if/else 
+how far is your work from home
+what are the usage of the car >> 
+
+data 
+
+2. conditional statements >>if/else
+
+3. doing the same steps again >> looping, for/while
+
+4. data structure >> arrary
+
+5. Functions or methods >> write a re-usuable block of code
+
+6. Object oriented programming 
+
+Key learning 1: How to start using eclipse to write our java code 
+
+Basic unit of java >> 
+
+class add main method 
+
+main method >> starting point of java code 
+
+scope >> { }, class methods conditional statment looping
+{ staring point
+} ending point 
+
+source code >> the code written by you or the programming you are working with 
+
+library code >> which code are already written you can use them 
+
+package are just java folder
+main() {
+
+
+}
+
+main method 
+
+How to store data in our program? 
+
+12 
+100 
+123.56
+Mike
+
+datatype of java - variable 
+
+integer >> whole number 45
+double >> 3.45
+String >> set of characters , mike, 10400 eaton place
+boolean >> true or false 
+
+variable 
+
+int x
+double y 
+String name
+boolean z 
+
+common structure : 
+
+datatype variablename = value ; 
+
+int xyz = 32; 
+
+double abc = 23.45; 
+
+x=54;
+
+datatype variablename = value; 
+
+int x = 56; 
+
+x=10;
+
+double y = 54.76; 
+
+storing data can happen in two steps: 
+
+step 1: declaring a variable , declaretion 
+
+int x; 
+
+step 2: initiazliae the variable with a value , initiazliation
+
+x=65;
+
+step 1+ 2 
+declaretion + initialization 
+int x = 65; 
+
+java is a case sensitive lanaguage 
+
+a and A is different in java
+x and X is different in java
+
+54
+
+
+farenhite = (celsiusX1.8)+32 
+
+974379
+
+63563636
+
+3478dfhlf
+
+
+datatype variablename = value; 
+decalration
+initialization 
+
+int double String boolean 
+how to store data in your program: 
+
+datatype>> int, double, String, boolean
+variable name>> you can give any name for your variable 
+value >> what value you want to store 
+
+datatype variablename = value; 
+
+int x = 45; 
+
+int x ; declaration 
+
+ x = 45; initialize 
+
+x = 34; 
+
+double y = 100.10; 
+
+String name = "john"; 
+
+boolean flag = true; 
+
+
+conditonal statement: 
+
+if there is no rain >> true , false 
+I will go florida 
+
+if condition 
+
+if(condition) {
+
+// code goes here
+
+}
+
+if I dont get into harvard
+else I will go to columbia 
+
+and && 
+or || 
+
+(conidition1 and conidtion2) >> true
+
+if I go to florida && I go to texas then I will go by plane 
+
+if I go to florida or I go to texas then I will go by plane 
+
+same link as the class link
+
+Tuesday 630 PM  
+
+Wednesday 2 PM
+
+Problem Statement: 
+
+car monthly payment software: 
+
+car price 
+admin fee 
+down payment 
+tax 
+title fee
+
+apr >> credit score 
+
+
+monthly payment = carprice/number of months 
+
+100 , 6 percent tax 
+
+106 
+
+100 + 100*(6/100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
