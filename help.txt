@@ -1,0 +1,55 @@
+a b c d
+
+char firstChar = 'B'
+
+String firstString = "M"
+
+123456789
+
+int myIntNumber = 1245
+double myDoubleNumber = 1245.12545
+
+boolean - true/false
+
+
+
+
+
+
+Conditional Statement-----
+
+if
+
+else
+
+
+If user insert a number more than 100 then the output should be 
+
+"Invalid input"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

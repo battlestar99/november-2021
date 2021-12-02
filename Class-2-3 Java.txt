@@ -217,6 +217,125 @@ monthly payment = carprice/number of months
 
 
 
+syntax of the code: 
+
+datatype variablename = value; 
+int x = 45; // can store only whole number 
+String name = "michael"; // can store anything inside the doule quoation
+double y = 56.76; // can store any decimal number
+boolean z = true; // only true of false 
+char c = 'a';
+
+what we do with this data? 
+car payment calculator = depended on the requirement 
+
+number + - * /  int double float
+boolean - true or false 
+
+comparing values 
+
+if(condition) {
+
+}
+
+class is a scope >> { - staring point and ending point 
+
+method >> scope { }
+
+java methods / functions 
+
+1. control statment - looping - is a way to execute the same code for certain number of times based on a condition 
+
+for loop 
+
+if(condition) {}
+
+for(initiazalition; condition; increament or decreament){
+
+}
+
+while loop 
+
+
+2. data structure - array 
+
+double y = 5; 
+
+if(if we can login to the portal) {
+
+print"test passed";
+
+}
+
+
+
+
+data structure >> how you organize data in your problem
+
+int x = 10; 
+x=12;
+
+array
+
+1. what type of data the array will be stored
+2. what will be size of the array - how many data you want to store in the array 
+
+int x; // its an integer variable
+
+// declaretion of the array
+int x []; // its an integer array 
+
+// size of the array 
+
+x = new int [100];
+
+int num [] = new int [500];
+
+array index >> starts from 0 
+
+num[0]=343;
+
+
+
+String name[]=new String [200];
+
+double z [] = new double [200];
+
+
+
+
+{} >> scope
+() >> methods/functions
+[] >> array 
+
+
+
+list
+linkedlist
+
+
+
+
+arrary 
+
+declaretion 
+
+int x []; 
+
+initialization 
+
+x = new int [100];
+
+int x ; 
+
+x=12;
+
+
+
+
+
+
+
 
 
 

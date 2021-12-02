@@ -21,7 +21,7 @@ public class carPaymentCalV1 {
 		double monthlyPayment; 
 		
 		
-		basePrice = 40000; 
+		basePrice = 30000; 
 		downPayment = 10000; 
 		taxPercent = 6; 
 		adminFee = 500 ; 
