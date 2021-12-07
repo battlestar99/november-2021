@@ -1,0 +1,176 @@
+java methods or functions 
+
+1. storing and using data from variables 
+2. control statements: conditional ( if/else) and looping ( for or while) 
+3. data structure : array 
+
+4. methods or functions 
+
+class >> 
+
+runnable class - the class with main method 
+public class testclass {
+
+public static void main(String args[]){
+
+// code goes here, instructions to the computer
+
+}
+
+
+}
+
+runnable - run it as a java application - main method >> 
+
+Non-runnable - it doesnt have main method - not runnable 
+
+1. organizing our code in different blocks  
+2. Object oriendted programming - designing a prototype for a system 
+
+Method/function: 
+
+1. how to create a method 
+2. how to use a method that created by us
+3. how to use a method that is created by other programmers and available in some library 
+
+
+
+Structure of a java method: 
+
+input - data - parameter, argument - can be multiple 
+output - data - return of a function - one 
+
+
+public int sum(int x , int y){
+
+
+
+}
+when you should create functions and how to decide on what will be the 
+input and output 
+
+1. problem solution 
+2. block of code will be used again and again 
+
+18/20 functions 
+
+depends on the problem 
+
+
+example: create a function that can add three numbers 
+
+input - parameters - three integer variable 
+output - return - one integer 
+
+get("www.google.com");
+
+getText();
+public returntype functionname(parameters){
+
+
+return data; 
+}
+
+public boolean get(String m){
+
+
+return booleanvalue; 
+}
+
+Scanner sc = new Scanner();
+
+How to use the method: 
+
+1. create an object of the class
+
+classname objectname = new classname();
+
+class - main method >> java application 
+
+non-runnable - methods >> block of code 
+
+input / parameters(data) >> method /system ( block of code)>> output/return 
+
+public returntype sum(int x, boolean y){
+
+
+return returntypedata; 
+
+}
+
+example: create a function that will convert celsius to farenhite 
+
+input >> double value
+output >> double value 
+
+
+public double celsisusToFarenthite(double celsius){
+
+double farenhite; 
+
+farenhite = (celsius * 1.8) + 32;
+return farenhite;
+
+}
+
+get("www.google.com")
+
+get("www.twitter.com")
+
+myclass 
+
+myclass x = new myclass();
+
+1. functions/method: block of re-usuable code - non-runnable class 
+
+2. 
+
+public returndatatype functionname(parameters){
+
+// code goes here whethere is 1 line or 1000 lines 
+
+return returndatatype; 
+}
+
+parameters - can be multiple 
+return - is only one data 
+
+problem statement 
+
+celiustofarehite
+
+3. how to use them 
+
+webdriver 
+
+webdriver object = new webdriver();
+
+4. one runnable script >> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

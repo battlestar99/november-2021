@@ -330,6 +330,10 @@ int x ;
 
 x=12;
 
+fundamental datatype - int double boolean
+
+compound or reference datatype - array String
+
 
 
 

@@ -9,6 +9,8 @@ public class carPaymentCalV2 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		carUtility utility = new carUtility();
+		
 		System.out.println("Enter the base price of the car...");
 		double basePrice = sc.nextDouble(); 
 		
@@ -44,8 +46,11 @@ public class carPaymentCalV2 {
 		titleFee = 250; 
 		
 		 
+		// create a function to find the total price 
+		// 
 		
-		totalPriceOfCar = basePrice+adminFee+titleFee;
+		totalPriceOfCar = utility.getTotalPrice(basePrice, adminFee, titleFee);
+		
 		
 		//System.out.println("Total price of the car ...");
 		//System.out.println(totalPriceOfCar);
@@ -66,32 +71,40 @@ public class carPaymentCalV2 {
 		//System.out.println(financeAmount);
 		
 		
+		// finding apr function - parameter integer value credit score 
+		// return type will be double which is apr 
 
 		
-		if(creditScore>700) {
-			
-			apr = 1;
-			
-		}
-
-	else if(creditScore<=700 && creditScore>600) {
-			
-			apr = 4;
-			
-		}
-     
-	else if(creditScore<=600 && creditScore>500) {
-			
-			apr = 6;
-			
-		}
-	
-	else {
 		
-		System.out.println("you are not eligible to buy a car");
+		apr = utility.getApr(creditScore);
 		
-	}
-
+		
+		
+		/*
+		 * if(creditScore>700) {
+		 * 
+		 * apr = 1;
+		 * 
+		 * }
+		 * 
+		 * else if(creditScore<=700 && creditScore>600) {
+		 * 
+		 * apr = 4;
+		 * 
+		 * }
+		 * 
+		 * else if(creditScore<=600 && creditScore>500) {
+		 * 
+		 * apr = 6;
+		 * 
+		 * }
+		 * 
+		 * else {
+		 * 
+		 * System.out.println("you are not eligible to buy a car");
+		 * 
+		 * }
+		 */
 
 	interestToPay = financeAmount *(apr/100);
 	
