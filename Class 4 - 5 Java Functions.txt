@@ -264,7 +264,32 @@ stop ().. void: this function will stop the car
 
 selenium programming library: 
 
+full of non-runnable classes 
 
+selenium programming library: are the functions to interact with a web 
+browser 
+browser automation library
+automation testing library
+
+google chorme, mozila, internet explorer
+
+java programming library : jar file 
+
+selenium setup: 
+
+1. setting up the selenium programming library
+
+downloading the jar files, bring it to our project and add it to build path 
+
+2. setting up a browser driver 
+
+google chrome browser - 
+
+1. find your chrome brwoser version 
+
+2. go to the chromedriver link 
+
+https://chromedriver.chromium.org/downloads
 
 
 
