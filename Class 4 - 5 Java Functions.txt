@@ -149,6 +149,112 @@ webdriver object = new webdriver();
 
 
 
+Java Class: 
+
+package import and how it comes? 
+
+
+traditional way: instructions and run them 
+java main method 
+
+public static void main(String args[]){
+
+// code goes here that you want to run 
+
+}
+
+test script >> main method of java 
+
+OOP - object oriented programming 
+
+1. creating re-usuable code >> functions 
+
+block of code {
+
+// this is the code
+
+}
+2. class means a specific datatype, reference datatype 
+
+
+
+
+
+main method >> only one and same structure 
+
+public static void main(String args[]){
+// code goes here
+
+}
+
+functions / methods: whatever complicated task the functions does or simple task the function does 
+
+input/parameters(data) >> function/system >> output (one data) 
+
+testclass
+
+public void nameofthefunction(parameters){
+
+// code goes here 
+
+
+}
+
+public boolean getflag(){
+
+
+return true; 
+}
+
+testclass tc = new testclass();
+
+100 
+
+1000 
+
+static means
+global and local variable 
+
+int x ; 
+
+
+
+bankaccount - prototype of design of a system 
+
+deposit()
+withdraw()
+transfer()
+
+customer are the object the system: 
+
+john >> deposit, withdraw, transfer
+mike >> deposit, withdraw, transer
+
+class has two feature: 
+
+function >> what it can do
+properties >> what are the properties of the object
+
+static : a function or property only part of the class but will not be part of any object, so we dont to create object to call the function and setup 
+value for the properties  
+
+non-static : function or property part of the object
+
+block of code : the rule of creating this block of code 
+
+non-runnable class: you can use it from any class in your project , you can make a library which can hold the functions 
+
+Porgramming library: set of functions and properties
+
+it doesnt have any runnable class 
+libarary documentation: 
+
+package 2 >> car >> 
+
+start()..void : this function will start the car 
+stop ().. void: this function will stop the car
+
+20 functions: 
 
 
 
@@ -156,7 +262,7 @@ webdriver object = new webdriver();
 
 
 
-
+selenium programming library: 
 
 
 
