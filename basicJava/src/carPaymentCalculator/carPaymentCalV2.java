@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class carPaymentCalV2 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		
 		Scanner sc = new Scanner(System.in);
@@ -14,6 +14,7 @@ public class carPaymentCalV2 {
 		System.out.println("Enter the base price of the car...");
 		double basePrice = sc.nextDouble(); 
 		
+		Thread.sleep(3000);
 		System.out.println("Enter the down payment amount...");
 		double downPayment = sc.nextDouble(); 
 		

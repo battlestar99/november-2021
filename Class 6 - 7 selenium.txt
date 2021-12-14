@@ -1,0 +1,126 @@
+capability of selenium? 
+
+what is a test case? 
+
+step by step process of valiadating a requirment 
+
+web-based application 
+
+requirements >> user stories 
+
+expected result >> comes from requirment 
+actual result >> comes from test 
+
+compare expected and actual >> is same >> passed
+is not same >> failed 
+
+defect >> log the defect 
+
+manual testing process >> test case 
+Automation test case or test scripts 
+
+test scripts >> create directly from requirement 
+you can convert the manual to automation 
+
+excel 
+jira zephyr/xray
+ALM 
+TFS 
+
+components of test case: 
+test case ID
+test environment 
+browser 
+Test data 
+Scenerio
+
+Test steps: 
+
+pre requirement: 
+1. open the browser 
+
+steps: 
+
+2. navigating to url 
+3. click on help button
+4. validating the help[ page url 
+5. validating the help page title
+6. validating the help page has chat option
+7. validating chat window can be opened from the page 
+
+post requirement: 
+8. closing the browser 
+
+Test result: 
+
+writing test case >> 
+
+Automating the test case: web based application - browser 
+
+URL - domain name 
+
+selenium: browser automation tool - it can interact inside a browser
+to execute any steps 
+
+google chrome >> 
+
+www.google.com >> windows, mac, linux, ipad
+
+www.geico.com 
+
+geico application - mobile app 
+
+Selenium library - selenium webdriver 
+selenium java 
+selenium server standalone 
+
+jar file >> 
+how to interact with an application inside a browser 
+
+20 functions 
+
+webelement >> the component of a web application that any user can 
+interact with
+
+text box - type something
+button - click
+drop down menu - select - options are already defined 
+links - click >> navigates us to a new page 
+
+interacting with web element 
+
+1. find out the right web element >> locating tecniques 
+
+<input type="text" id="usernamereg-firstName" class="ureg-fname input-with-icon icon-name " autocomplete="given-name" name="firstName" placeholder="First&nbsp;name" aria-label="First&nbsp;name" value="" maxlength="32" aria-required="true" data-rapid-tracking="true" data-ylk="elm:input;elmt:fname;slk:first-name;">
+
+< tagname attribute1 = value attribute2= value attribute3= value>
+
+id
+name
+
+
+
+2. interacting based on the type of web element 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
