@@ -102,7 +102,8 @@ name
 
 2. interacting based on the type of web element 
 
-
+WebElement datatype: is a specific datatype created in selenium library, 
+in this datatype we can store any webelement
 
 
 
