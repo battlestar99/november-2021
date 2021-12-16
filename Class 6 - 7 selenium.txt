@@ -104,6 +104,83 @@ name
 
 WebElement datatype: is a specific datatype created in selenium library, 
 in this datatype we can store any webelement
+how to setup any programminng library? 
+
+jar files >> java library - java archived files 
+
+jdk + eclipse >> 
+selenium java >> 2.57
+selenium server standalone >> 2.57 
+
+driver file for specific browser 
+chromedriver >> 96 , 97 
+browswer >> 96 , 97 
+
+what is a programming library ? 
+
+any programming library is pre-written code, functions/methods 
+
+what is selenium library, usages of selenium library? 
+
+pre-written code - interacting web browser 
+
+
+
+
+opening the browser
+navigating to an url 
+reading the url value 
+reading the title 
+verifying any web element is displayed in web page 
+typing something in a text box
+clicking something in a button 
+
+organizing code >> 
+
+
+every non-runnable class in java is also a datatype 
+
+car 
+
+car c = new car(); // references variable
+
+int x = 12; 
+
+isDisplayed >> webdriver - browser
+isEnabled >> webdriver - browser 
+isSelected >> webelement - web element
+getText >> webelement - web element
+getCurrentUrl >> webelement - web element
+getTitle >> webelement - web element
+
+locating tecniques - id, name, xpath 
+
+linktext >> link , anchor tag, a tag
+
+drop down - 
+synchronization tecniques - 
+
+req: if an user enters first name, last name and mistakenly leave the page, 
+if user comes back within 2 seconds, the value will be available 
+
+test scenerio: user enters michale for firstrname and schure for last name, and click on help button, if the user click on the back button within 2 seconds michale and schure should be available in the text boxes 
+
+drop down - need to use functions from Select Class 
+
+Select dd = new Select(webelement);
+
+Synchronization with Time: 
+
+implicit wait: it makes sure all web elements of the web page is loaded 
+
+thread.sleep(5000);
+
+1 second >> 4 seconds 
+
+7 seconds >> 
+
+driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
 
 
 
