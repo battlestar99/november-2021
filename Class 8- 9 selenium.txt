@@ -1,0 +1,147 @@
+Test Script vs Test Case? 
+
+Test script - code that we create automated testing - Automation test case - regression testing 
+Test case - manual test case 
+
+setup: 
+java >> jdk + ide ( eclipse, intellij) coding editor 
+selenium >> interact with web browser - 2 jar files - add them build path
+driver file >> chrome browser (94) - chrome driver(94) 
+internet explorer - IE driver
+mozila - gecko driver 
+
+
+
+How to start writing Test Script for a requirement or user stories given? 
+
+Test Script >> runnable class - main method of java 
+non-runable - creating methods/functions which can be re-used - no 
+main method of java
+
+Test Data: data used for testing 
+url >> www.google.com 
+
+user story 1: 
+user should be able to login with valid credentials
+
+validate the requirement: 
+test scenerio: 
+validate the login with starndar_input as username and secret_sauce as 
+a password, and the application should login to the home page. 
+
+1 test - 1 test case - 1 test script 
+
+
+user story 2: 
+user should not be able to login with invalid credentials 
+
+Question: how to validate these 2 scenerios in automation test script 
+
+user story 3: a valid user should be able to add product to the cart and buy the product through the checkout page 
+
+
+
+
+expected result >> requirement 
+actual result >> after we execute the test 
+
+Developing Test Automation Framework? 
+
+getcurrenturl
+gettitle
+isdisplayed
+isenabled
+isselected
+
+
+Release: 3 months - new version of the application 
+
+3 months - 2 weeks sprint - 6 sprints 
+
+Release planning starts - 
+
+10 new user stories 
+
+1. new functionalities 
+2. modified functionalities 
+3. defect/bug fixes - 15 defects 
+
+Test environment - december 20th - 200 test cases 
+
+new code deployed - 
+
+
+dev environment - 
+test environment - 
+staging environment - 
+production environment - end-user
+
+finding web elements - 
+
+attribute = value 
+
+
+<input class="input_error form_input error" placeholder="Username" type="text" data-test="username" id="user-name" name="user-name" autocorrect="off" autocapitalize="none" value="standard_user", 
+elementname = "username">
+
+id
+name
+xpath = //*[@id="user-name"]
+
+xpath structure : modified xpath 
+
+//tagname[@attribute="value"]
+
+//input[@elementname="username"]
+
+text box , id = "value"
+button , id = "value"
+
+//input[@elementname="username"]
+
+//button[@id="value"]
+
+what locating tecnique you prefer and why? 
+
+relative xpath - xpath created using id and value, start with // 
+
+absolute xpath - /html/body/div/div/div[2]/div[1]/div[1]/div/form/div[1]/input
+
+if something is / , it means absolute xpath 
+
+css selector: 
+
+tagname[attribute='value']
+input[id='value']
+[id='value']
+
+
+finding weblements - id, name, xpath, css selector 
+
+anchor tag - a tag - linktext, partial link text 
+
+finding multiple web elements - classname , tagname 
+
+findelements()
+
+
+constructor in java - 
+
+locating tecnique 
+synchoronization - implicit, explicit 
+page object model - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
