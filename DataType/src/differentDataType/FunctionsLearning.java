@@ -6,18 +6,37 @@ public class FunctionsLearning {
 
 	public static void main(String[] args) {
 		
+	
+//		HelpingFunctions.
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		HelpingFunctions obj = new HelpingFunctions();
 		
-		int sum = obj.addTwoNumbers(10, 56);
+		obj.getAbc(15, 25);
 		
-		String result = obj.addTwoWords("Sabina ", "Chowdhury");
-		
-		
+
 		
 //		System.out.println(sum);
 //		System.out.println(result);
 		
-		System.out.println(obj.checkEquality(25, 25));
+//		System.out.println(obj.checkEquality(25, 25));
 		
 		
 //		obj.addTwoNumbers(25, 30);

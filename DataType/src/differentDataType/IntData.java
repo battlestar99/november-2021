@@ -15,6 +15,21 @@ public class IntData {
 		 */
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		int firstValue = 30;
 		int secondValue = 10;
 		

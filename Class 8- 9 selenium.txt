@@ -127,11 +127,111 @@ findelements()
 
 constructor in java - 
 
-locating tecnique 
+locating tecnique - done, id or name  
 synchoronization - implicit, explicit 
 page object model - 
 
+Automation testing framework: 
 
+object driven framework: the tecnique of seperationg web objects or web elements from the test scripts - 
+
+by creating page object model classes 
+
+data driven framework: the tecniuqes of seperating test data from test scripts - XML, data table, excel files, database file 
+
+key word driven framework: seperating non-test data from test script
+
+
+
+
+
+finding web elements - 
+Test data - 
+
+constructor: 
+
+2 features of non-runnable class 
+
+design or prototype of a system - 
+properties - global variable
+functions / method 
+
+what are the properties of the thing we are designing? >> global variable
+what it can do >> function/method 
+
+constructor: is a tecnique - used to setup initial value for any variable - or exectue something upon the any object is created 
+
+enforces the object to pass some value when the object is created or execute something when the object is created
+
+
+
+
+
+20 web elements - 100 times 
+
+5 times - 
+
+30 test scripts - 
+
+page object model - non runnable classes with function
+
+for each web elemenet - create one function
+
+page object model classes - for each web page you should create 
+one page object model class
+
+10 web pages - 10 page object model 
+20 web pages - 20 page object model classes 
+
+
+
+
+int can store whole number
+string can store set of charaters 
+webelemnt can store web elemnet 
+
+wedriver can store a browser instance 
+
+non-runnable class >> properties and functions
+
+10 web pages - 
+loginpage
+signuppage
+checkoutpage
+helppage
+
+10 scenarios - 
+
+What is object driven framework? 
+
+Why we create page object model? 
+
+How to create page object model? 
+
+
+Test script >> automated test case , test steps we are executing using code 
+
+based on requirement - user stories  - validate the requirement 
+
+Test scenario - 3 scnearios 
+
+50 user stories - 
+
+150 test scripts - 
+
+50 web elements - 
+
+500 different places - 
+
+Webelements - web objects 
+test data - 
+
+page object model - non runnable class with functions 
+
+for each web- page we should create one page object model 
+
+loginpage >> all my webelements of login page is in the loginpage class
+checkoutpage - update the weblement location
 
 
 

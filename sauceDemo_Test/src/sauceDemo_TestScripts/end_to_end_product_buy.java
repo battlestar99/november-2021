@@ -26,9 +26,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\wo
 		WebElement username = driver.findElement(By.id("user-name"));
 		WebElement password = driver.findElement(By.id("password"));
 		WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"login-button\"]"));
-		
-		
-		
+
 		
 		username.sendKeys(userNameDataValid);
 		password.sendKeys(passwordData);

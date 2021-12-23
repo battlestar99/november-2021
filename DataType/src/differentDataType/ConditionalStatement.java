@@ -4,17 +4,35 @@ public class ConditionalStatement {
 
 	public static void main(String[] args) {
 				
-		int value = 1000;
 		
-		if(value >= 90) {
-			System.out.println("Grade is A");
-		}else if (value <= 89 && value >= 80) {
-			System.out.println("Grade is B");
-		}else if (value <= 79 && value >= 70) {
-			System.out.println("Grade is C");
-		}else {
-			System.out.println("Fail");
+		System.out.println("First Line");
+		
+		try {
+		int a = 50/0;
+		System.out.println(a);
+		}catch(Exception e) {
+			System.out.println("No numbers can be devide by zero");
 		}
+		
+		System.out.println("Last Line");
+	
+		String[] name = new String[3];
+		
+		System.out.println(name[3]);
+		
+		
+		
+//		int value = 1000;
+//		
+//		if(value >= 90) {
+//			System.out.println("Grade is A");
+//		}else if (value <= 89 && value >= 80) {
+//			System.out.println("Grade is B");
+//		}else if (value <= 79 && value >= 70) {
+//			System.out.println("Grade is C");
+//		}else {
+//			System.out.println("Fail");
+//		}
 
 		
 
