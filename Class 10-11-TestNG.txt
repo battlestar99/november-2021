@@ -1,0 +1,98 @@
+Page object model 
+
+Testing Library - 
+TestNG 
+Cucumber 
+
+TestNG 
+
+java and selenium >> 
+
+java >> programming language 
+selenium >> programming libary , java 
+web based application testing 
+
+Test scripts >> main method of java 
+
+Testing Library  - TestNG , Cucumber 
+
+1. code organization >> test scenario
+2. pass/fail scenerio >>  
+3. generating report >> 
+4. 100 scripts >> test suite 
+5. data driven framework >> test data seperated from test script 
+
+page object model 
+
+TestNG setup 
+
+1. eclipse plugin - to run the TestNG test from eclipse 
+2. TestNG jar file - programming library 
+
+TestNG - annotations 
+
+test scripts template - TestNG 
+
+main method of java will be replaced by TestNG or cucumber 
+
+@BeforeTest - pre requirment for the test
+@Test - is the main test 
+@AfterTest - post requirement for the test 
+
+50 test scripts >> 110 test cases - test scenario 
+
+BeforeMethod, AfterMethod
+
+@BeforeTest
+@BeforeMethod
+@Test1
+@AfterMethod
+@BeforeMethod
+@Test2 
+@AfterMethod
+@AfterTest
+
+Assertions - is a way to compare expected and actual results
+
+Assertionerror - test is failing and there is defect in the application 
+
+no such element exception- stalement - null pointer exception - 
+code is failing - we need to fixing 
+
+Test case - Test scenario - Test script based on user story , requirement 
+
+user story: user should be able to login with valid credentials 
+
+user story: user should not be able to login with invalid credentials 
+
+steps of writing test scripts: 
+
+1. analyzing requirements or user stories 
+2. coming up with test scenarios 
+3. if you are manual tester - create test cases 
+4. if you are automation tester - create test scripts and add test scnearios 
+in the script 
+
+steps of developing scripts: 
+
+1. find out which scenario / s you want to add in a script 
+2. find out what will be pre-requirment or post requirment of the scenarios 
+3. adding @Test annotationa based on the the scnearios you want to automated 
+4. if you need to execute any step before each test, consider using beforemethod and/or afteremthod 
+5. with each test, must add at least one assertion - to create pass / fail scenario 
+6. use page object model to find and use the webelement you need 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

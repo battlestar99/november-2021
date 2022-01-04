@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Validating valid credential test]]>
+    </line>
+    <line>
+      <![CDATA[Validating invalid credential test]]>
+    </line>
+    <line>
+      <![CDATA[Validating problem user test]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3408" started-at="2022-01-04T02:07:02Z" finished-at="2022-01-04T02:07:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3408" started-at="2022-01-04T02:07:02Z" finished-at="2022-01-04T02:07:05Z">
+      <class name="TestScripts.swagLab_login_two">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestScripts.swagLab_login_two@3c72f59f]" name="testSetup" is-config="true" duration-ms="1354" started-at="2022-01-03T21:07:02Z" finished-at="2022-01-03T21:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestScripts.swagLab_login_two@3c72f59f]" name="beforeEachTest" is-config="true" duration-ms="232" started-at="2022-01-03T21:07:03Z" finished-at="2022-01-03T21:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="validateValidLogin()[pri:0, instance:TestScripts.swagLab_login_two@3c72f59f]" name="validateValidLogin" duration-ms="315" started-at="2022-01-03T21:07:03Z" finished-at="2022-01-03T21:07:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating valid credential test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateValidLogin -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestScripts.swagLab_login_two@3c72f59f]" name="beforeEachTest" is-config="true" duration-ms="137" started-at="2022-01-03T21:07:03Z" finished-at="2022-01-03T21:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="validateinValidLogin()[pri:1, instance:TestScripts.swagLab_login_two@3c72f59f]" name="validateinValidLogin" duration-ms="247" started-at="2022-01-03T21:07:04Z" finished-at="2022-01-03T21:07:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating invalid credential test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateinValidLogin -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:TestScripts.swagLab_login_two@3c72f59f]" name="beforeEachTest" is-config="true" duration-ms="43" started-at="2022-01-03T21:07:04Z" finished-at="2022-01-03T21:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="validateprobUserLogin()[pri:2, instance:TestScripts.swagLab_login_two@3c72f59f]" name="validateprobUserLogin" duration-ms="216" started-at="2022-01-03T21:07:04Z" finished-at="2022-01-03T21:07:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating problem user test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateprobUserLogin -->
+        <test-method status="PASS" signature="testEnd()[pri:0, instance:TestScripts.swagLab_login_two@3c72f59f]" name="testEnd" is-config="true" duration-ms="853" started-at="2022-01-03T21:07:04Z" finished-at="2022-01-03T21:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnd -->
+      </class> <!-- TestScripts.swagLab_login_two -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
