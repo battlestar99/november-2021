@@ -37,7 +37,7 @@ public class template_learn_two {
 		
 		System.out.println("this is test a");
 		
-		Assert.assertEquals("abcd", "abc");
+		Assert.assertEquals("abc", "abc");
 	}
 	
 	@Test (priority=0)

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Data driven testing" parallel = "tests">
+
+<test name = "Mozila firefox test user test">
+
+<parameter name = "browser" value = "mozila"></parameter>
+
+
+<classes>
+
+<class name = "TestScripts.swagLabLoginData"></class>
+
+</classes>
+
+</test>
+
+
+<test name = "Google chrome browser test user test">
+
+<parameter name = "browser" value = "chrome"></parameter>
+
+
+<classes>
+
+<class name = "TestScripts.swagLabLoginData"></class>
+
+</classes>
+
+</test>
+
+<test name = "Internet explorer test">
+
+<parameter name = "browser" value = "IE"></parameter>
+
+
+<classes>
+
+<class name = "TestScripts.swagLabLoginData"></class>
+
+</classes>
+
+</test>
+
+
+</suite>

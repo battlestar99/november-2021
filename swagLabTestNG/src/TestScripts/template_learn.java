@@ -1,5 +1,6 @@
 package TestScripts;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -23,13 +24,20 @@ public class template_learn {
 		
 		System.out.println("This is the main test b");
 		
-	}
+		Assert.assertEquals("abc","abc");
+		
 	
+		
+	}
 	
 	@Test
 	public void cTest() {
 		
 		System.out.println("This is the main test c");
+		
+		Assert.assertEquals(false, false);
+		
+		//Assert.assertFalse(false);
 		
 	}
 	
@@ -37,6 +45,10 @@ public class template_learn {
 	public void aTest() {
 		
 		System.out.println("This is the main test");
+		
+		Assert.assertTrue(true);
+		
+		
 		
 	}
 	

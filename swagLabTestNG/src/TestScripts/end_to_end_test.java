@@ -25,6 +25,7 @@ public class end_to_end_test {
 	cartPage cp; 
 	checkoutStepOne cpOne; 
 	checkoutStepTwo cpTwo; 
+	int x; 
 	
 	@BeforeTest
 	public void setupTest() {
@@ -33,6 +34,7 @@ public class end_to_end_test {
 	    
 		 driver = new ChromeDriver();
 		 lp = new loginPage(driver);
+		 x = 12; 
 		 ip = new inventoryPage(driver);
 		 cp = new cartPage(driver);
 		 cpOne = new checkoutStepOne(driver);
@@ -52,6 +54,7 @@ public class end_to_end_test {
 		lp.getpassword().sendKeys("secret_sauce");
 		lp.getloginButton().click();
 		
+		System.out.println(x);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 		System.out.println("user successfully logged in");
@@ -93,6 +96,8 @@ public class end_to_end_test {
 		String expectedUrl = "https://www.saucedemo.com/checkout-complete.html";
 		
 		Assert.assertEquals(actualUrl, expectedUrl);
+		
+		
 		
 		
 		

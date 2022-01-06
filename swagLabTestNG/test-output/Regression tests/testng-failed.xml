@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression tests]">
+  <test name="swag lab regression tests(failed)">
+    <classes>
+      <class name="TestScripts.swagLab_login_two">
+        <methods>
+          <include name="testSetup"/>
+          <include name="testEnd"/>
+          <include name="beforeEachTest"/>
+        </methods>
+      </class> <!-- TestScripts.swagLab_login_two -->
+      <class name="TestScripts.end_to_end_test">
+        <methods>
+          <include name="setupTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- TestScripts.end_to_end_test -->
+      <class name="TestScripts.swagLab_Login_Test">
+        <methods>
+          <include name="beforeEachTest"/>
+          <include name="testSetup"/>
+          <include name="testEnd"/>
+        </methods>
+      </class> <!-- TestScripts.swagLab_Login_Test -->
+      <class name="TestScripts.template_learn_two">
+        <methods>
+          <include name="testendOne"/>
+          <include name="endTest"/>
+          <include name="testSetup"/>
+          <include name="testSetupone"/>
+          <include name="aTest"/>
+        </methods>
+      </class> <!-- TestScripts.template_learn_two -->
+      <class name="TestScripts.template_learn">
+        <methods>
+          <include name="testSetup"/>
+          <include name="testEnd"/>
+        </methods>
+      </class> <!-- TestScripts.template_learn -->
+      <class name="TestScripts.loginElementValidation">
+        <methods>
+          <include name="testSetup"/>
+          <include name="endtest"/>
+        </methods>
+      </class> <!-- TestScripts.loginElementValidation -->
+    </classes>
+  </test> <!-- swag lab regression tests(failed) -->
+</suite> <!-- Failed suite [Regression tests] -->

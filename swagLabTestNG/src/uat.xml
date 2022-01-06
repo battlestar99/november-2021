@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "User acceptanace testing">
+
+<test name = "UAT tests for releast 10.2">
+
+<classes> 
+
+<class name = "TestScripts.end_to_end_test"></class>
+<class name = "TestScripts.loginElementValidation"></class>
+
+</classes>
+
+
+</test>
+
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Regression tests">
+
+<test name = "swag lab regression tests">
+
+<classes> 
+
+<class name = "TestScripts.end_to_end_test"></class>
+
+
+</classes>
+
+
+</test>
+
+</suite>

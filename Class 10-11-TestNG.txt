@@ -17,8 +17,8 @@ Test scripts >> main method of java
 Testing Library  - TestNG , Cucumber 
 
 1. code organization >> test scenario
-2. pass/fail scenerio >>  
-3. generating report >> 
+2. pass/fail scenerio >>  assertion
+3. generating report >> TestNG
 4. 100 scripts >> test suite 
 5. data driven framework >> test data seperated from test script 
 
@@ -83,7 +83,90 @@ steps of developing scripts:
 6. use page object model to find and use the webelement you need 
 
 
+Test Organization 
 
+@BeforeTest - pre requirement of test script 
+public void setupTest(){
+
+// code for before test
+}
+
+@AfterTest - post requirement for the test script 
+public void endtest(){
+
+// code for aftertest 
+
+}
+
+@Test(priority=0)
+public void atest(){
+
+// write code for one test scenario or test case
+
+}
+
+@Beforemethod - pre requirement for each test 
+@Aftermethod - post requirment for each test 
+
+Beforeclass
+beforesuite 
+
+interaction with the web-based application - selenium
+
+Actual and expected result 
+
+int z = 45; 
+String x = "abc";
+String y = "abcd";
+assertequals("abc","abcd");
+
+utility package : there are functions that makes your frmaework easy to maintain then you can put it in the utility
+
+Test suite: collection of test cases 
+
+xml file 
+
+extensible markup language 
+
+xml and json - data transportation 
+
+
+xml - markup lanauge 
+
+
+
+data driven framework using Testing
+
+xml file 
+
+seperate the test data from the scripts - 
+
+
+
+
+cross browser testing: 
+
+brwoser setup : 
+
+1. brwoser driver - chrome, mozila, IE 
+
+webdriver driver; 
+
+
+If(mozila) 
+
+driver = new firefoxdriver 
+
+if(chrome) 
+
+driver = new chromdriver 
+
+if(ie) 
+
+driver = new interenetexplorerdriver
+
+
+system
 
 
 

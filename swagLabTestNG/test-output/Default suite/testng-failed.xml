@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="TestScripts.swagLab_login_two">
+      <class name="TestScripts.loginElementValidation">
         <methods>
           <include name="testSetup"/>
-          <include name="testEnd"/>
-          <include name="beforeEachTest"/>
-          <include name="validateprobUserLogin"/>
+          <include name="endtest"/>
+          <include name="checkloginDisplay"/>
         </methods>
-      </class> <!-- TestScripts.swagLab_login_two -->
+      </class> <!-- TestScripts.loginElementValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

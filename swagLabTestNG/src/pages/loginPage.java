@@ -19,7 +19,7 @@ public class loginPage {
 	
 	public WebElement getUserName() {
 		
-		WebElement username = driver.findElement(By.id("user-name"));
+		WebElement username = driver.findElement(By.name("user-name"));
 		return username; 
 	}
 	

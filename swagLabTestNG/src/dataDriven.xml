@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Data driven testing" parallel = "tests">
+
+<test name = "Standard user test">
+
+<parameter name = "username" value = "standard_user"></parameter>
+<parameter name = "password" value = "secret_sauce"></parameter>
+<parameter name = "expectedUrl" value = "https://www.saucedemo.com/inventory.html"></parameter>
+
+<classes>
+
+<class name = "TestScripts.swagLabLoginData"></class>
+
+</classes>
+
+</test>
+
+<test name = "Locked out user test">
+
+<parameter name = "username" value = "locked_out_user"></parameter>
+<parameter name = "password" value = "secret_sauce"></parameter>
+<parameter name = "expectedUrl" value = "https://www.saucedemo.com/"></parameter>
+
+<classes>
+
+<class name = "TestScripts.swagLabLoginData"></class>
+
+</classes>
+
+</test>
+
+
+<test name = "Problem user test">
+
+<parameter name = "username" value = "problem_user"></parameter>
+<parameter name = "password" value = "secret_sauce"></parameter>
+<parameter name = "expectedUrl" value = "https://www.saucedemo.com/inventory.html"></parameter>
+
+<classes>
+
+<class name = "TestScripts.swagLabLoginData"></class>
+
+</classes>
+
+</test>
+
+
+<test name = "Performance user test">
+
+<parameter name = "username" value = "performance_glitch_user"></parameter>
+<parameter name = "password" value = "secret_sauce"></parameter>
+<parameter name = "expectedUrl" value = "https://www.saucedemo.com/inventory.html"></parameter>
+
+<classes>
+
+<class name = "TestScripts.swagLabLoginData"></class>
+
+</classes>
+
+</test>
+
+
+
+
+
+
+
+</suite>
