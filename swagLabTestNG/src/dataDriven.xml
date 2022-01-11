@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name = "Data driven testing" parallel = "tests">
+<suite name = "Data driven testing" >
 
 <test name = "Standard user test">
 

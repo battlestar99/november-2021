@@ -2,82 +2,16 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Data driven testing" duration-ms="10994" started-at="2022-01-06T01:40:29Z" finished-at="2022-01-06T01:40:40Z">
+  <suite name="Data driven testing" duration-ms="23608" started-at="2022-01-08T15:47:27Z" finished-at="2022-01-08T15:47:50Z">
     <groups>
     </groups>
-    <test name="Problem user test" duration-ms="6374" started-at="2022-01-06T01:40:29Z" finished-at="2022-01-06T01:40:35Z">
+    <test name="Standard user test" duration-ms="5193" started-at="2022-01-08T15:47:27Z" finished-at="2022-01-08T15:47:32Z">
       <class name="TestScripts.swagLabLoginData">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestScripts.swagLabLoginData@8bd1b6a]" name="testSetup" is-config="true" duration-ms="2937" started-at="2022-01-05T20:40:29Z" finished-at="2022-01-05T20:40:32Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestScripts.swagLabLoginData@51081592]" name="testSetup" is-config="true" duration-ms="1898" started-at="2022-01-08T10:47:27Z" finished-at="2022-01-08T10:47:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.swagLabLoginData@8bd1b6a]" name="validateLogin" duration-ms="2438" started-at="2022-01-05T20:40:32Z" finished-at="2022-01-05T20:40:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/inventory.html]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogin -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:TestScripts.swagLabLoginData@8bd1b6a]" name="endTest" is-config="true" duration-ms="992" started-at="2022-01-05T20:40:34Z" finished-at="2022-01-05T20:40:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- TestScripts.swagLabLoginData -->
-    </test> <!-- Problem user test -->
-    <test name="Locked out user test" duration-ms="6656" started-at="2022-01-06T01:40:29Z" finished-at="2022-01-06T01:40:36Z">
-      <class name="TestScripts.swagLabLoginData">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestScripts.swagLabLoginData@724af044]" name="testSetup" is-config="true" duration-ms="2744" started-at="2022-01-05T20:40:29Z" finished-at="2022-01-05T20:40:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.swagLabLoginData@724af044]" name="validateLogin" duration-ms="2744" started-at="2022-01-05T20:40:32Z" finished-at="2022-01-05T20:40:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.saucedemo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogin -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:TestScripts.swagLabLoginData@724af044]" name="endTest" is-config="true" duration-ms="1153" started-at="2022-01-05T20:40:35Z" finished-at="2022-01-05T20:40:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- TestScripts.swagLabLoginData -->
-    </test> <!-- Locked out user test -->
-    <test name="Standard user test" duration-ms="6762" started-at="2022-01-06T01:40:29Z" finished-at="2022-01-06T01:40:36Z">
-      <class name="TestScripts.swagLabLoginData">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestScripts.swagLabLoginData@51081592]" name="testSetup" is-config="true" duration-ms="2818" started-at="2022-01-05T20:40:29Z" finished-at="2022-01-05T20:40:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.swagLabLoginData@51081592]" name="validateLogin" duration-ms="3071" started-at="2022-01-05T20:40:32Z" finished-at="2022-01-05T20:40:35Z">
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.swagLabLoginData@51081592]" name="validateLogin" duration-ms="2392" started-at="2022-01-08T10:47:29Z" finished-at="2022-01-08T10:47:31Z">
           <params>
             <param index="0">
               <value>
@@ -98,19 +32,85 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:TestScripts.swagLabLoginData@51081592]" name="endTest" is-config="true" duration-ms="868" started-at="2022-01-05T20:40:35Z" finished-at="2022-01-05T20:40:36Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:TestScripts.swagLabLoginData@51081592]" name="endTest" is-config="true" duration-ms="886" started-at="2022-01-08T10:47:31Z" finished-at="2022-01-08T10:47:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- TestScripts.swagLabLoginData -->
     </test> <!-- Standard user test -->
-    <test name="Performance user test" duration-ms="10994" started-at="2022-01-06T01:40:29Z" finished-at="2022-01-06T01:40:40Z">
+    <test name="Locked out user test" duration-ms="4395" started-at="2022-01-08T15:47:32Z" finished-at="2022-01-08T15:47:36Z">
       <class name="TestScripts.swagLabLoginData">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestScripts.swagLabLoginData@26be92ad]" name="testSetup" is-config="true" duration-ms="2744" started-at="2022-01-05T20:40:29Z" finished-at="2022-01-05T20:40:32Z">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestScripts.swagLabLoginData@724af044]" name="testSetup" is-config="true" duration-ms="1321" started-at="2022-01-08T10:47:32Z" finished-at="2022-01-08T10:47:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.swagLabLoginData@26be92ad]" name="validateLogin" duration-ms="7480" started-at="2022-01-05T20:40:32Z" finished-at="2022-01-05T20:40:39Z">
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.swagLabLoginData@724af044]" name="validateLogin" duration-ms="2312" started-at="2022-01-08T10:47:33Z" finished-at="2022-01-08T10:47:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:TestScripts.swagLabLoginData@724af044]" name="endTest" is-config="true" duration-ms="759" started-at="2022-01-08T10:47:36Z" finished-at="2022-01-08T10:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- TestScripts.swagLabLoginData -->
+    </test> <!-- Locked out user test -->
+    <test name="Problem user test" duration-ms="4488" started-at="2022-01-08T15:47:36Z" finished-at="2022-01-08T15:47:41Z">
+      <class name="TestScripts.swagLabLoginData">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestScripts.swagLabLoginData@8bd1b6a]" name="testSetup" is-config="true" duration-ms="1326" started-at="2022-01-08T10:47:36Z" finished-at="2022-01-08T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.swagLabLoginData@8bd1b6a]" name="validateLogin" duration-ms="2357" started-at="2022-01-08T10:47:38Z" finished-at="2022-01-08T10:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:TestScripts.swagLabLoginData@8bd1b6a]" name="endTest" is-config="true" duration-ms="804" started-at="2022-01-08T10:47:40Z" finished-at="2022-01-08T10:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- TestScripts.swagLabLoginData -->
+    </test> <!-- Problem user test -->
+    <test name="Performance user test" duration-ms="9500" started-at="2022-01-08T15:47:41Z" finished-at="2022-01-08T15:47:50Z">
+      <class name="TestScripts.swagLabLoginData">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestScripts.swagLabLoginData@26be92ad]" name="testSetup" is-config="true" duration-ms="1310" started-at="2022-01-08T10:47:41Z" finished-at="2022-01-08T10:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.swagLabLoginData@26be92ad]" name="validateLogin" duration-ms="7399" started-at="2022-01-08T10:47:42Z" finished-at="2022-01-08T10:47:50Z">
           <params>
             <param index="0">
               <value>
@@ -131,7 +131,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:TestScripts.swagLabLoginData@26be92ad]" name="endTest" is-config="true" duration-ms="756" started-at="2022-01-05T20:40:39Z" finished-at="2022-01-05T20:40:40Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:TestScripts.swagLabLoginData@26be92ad]" name="endTest" is-config="true" duration-ms="789" started-at="2022-01-08T10:47:50Z" finished-at="2022-01-08T10:47:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

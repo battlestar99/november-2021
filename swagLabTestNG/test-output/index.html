@@ -101,7 +101,7 @@
                     <div class="method-list-content passed suite-Data_driven_testing">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_driven_testing" title="TestScripts.swagLabLoginData" hash-for-method="validateLogin(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)">validateLogin(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_driven_testing" title="TestScripts.swagLabLoginData" hash-for-method="validateLogin(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">validateLogin(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -111,7 +111,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_driven_testing" title="TestScripts.swagLabLoginData" hash-for-method="validateLogin(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">validateLogin(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_driven_testing" title="TestScripts.swagLabLoginData" hash-for-method="validateLogin(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)">validateLogin(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -139,10 +139,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validateLogin(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
-                  </a> <!-- validateLogin(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
+                  <a name="validateLogin(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
+                  </a> <!-- validateLogin(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
                   <span class="method-name">validateLogin</span>
-                  <span class="parameters">(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                  <span class="parameters">(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -155,10 +155,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validateLogin(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
-                  </a> <!-- validateLogin(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
+                  <a name="validateLogin(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
+                  </a> <!-- validateLogin(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
                   <span class="method-name">validateLogin</span>
-                  <span class="parameters">(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                  <span class="parameters">(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -180,7 +180,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Data driven testing&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite name=&quot;Data driven testing&quot;&gt;
   &lt;test name=&quot;Standard user test&quot;&gt;
     &lt;parameter name=&quot;expectedUrl&quot; value=&quot;https://www.saucedemo.com/inventory.html&quot;/&gt;
     &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
@@ -263,24 +263,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateLogin')
 data.setCell(0, 2, 'TestScripts.swagLabLoginData')
-data.setCell(0, 3, 7480);
+data.setCell(0, 3, 7399);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'validateLogin')
 data.setCell(1, 2, 'TestScripts.swagLabLoginData')
-data.setCell(1, 3, 3071);
+data.setCell(1, 3, 2392);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validateLogin')
 data.setCell(2, 2, 'TestScripts.swagLabLoginData')
-data.setCell(2, 3, 2744);
+data.setCell(2, 3, 2357);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validateLogin')
 data.setCell(3, 2, 'TestScripts.swagLabLoginData')
-data.setCell(3, 3, 2438);
+data.setCell(3, 3, 2312);
 window.suiteTableData['Data_driven_testing']= { tableData: data, tableDiv: 'times-div-Data_driven_testing'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Data_driven_testing">
               </div> <!-- times-div-Data_driven_testing -->
             </div> <!-- times-div -->
@@ -311,49 +311,49 @@ return data;
                 <span class="method-name">testSetup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validateLogin(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                <span class="method-start">1908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">4304 ms</span>
+              </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">testSetup</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">5215 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validateLogin(locked_out_user, secret_sauce, https://www.saucedemo.com/)</span>
+                <span class="method-start">6537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">8850 ms</span>
+              </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">testSetup</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">9613 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validateLogin(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                <span class="method-start">10939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">13297 ms</span>
+              </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">testSetup</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">14105 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validateLogin(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                <span class="method-start">2755 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validateLogin(locked_out_user, secret_sauce, https://www.saucedemo.com/)</span>
-                <span class="method-start">2755 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validateLogin(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                <span class="method-start">2820 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validateLogin(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                <span class="method-start">2938 ms</span>
+                <span class="method-start">15416 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">5380 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">endTest</span>
-                <span class="method-start">5501 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">endTest</span>
-                <span class="method-start">5892 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">endTest</span>
-                <span class="method-start">10236 ms</span>
+                <span class="method-start">22816 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

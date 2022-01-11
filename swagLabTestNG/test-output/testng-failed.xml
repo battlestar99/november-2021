@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Data driven testing]">
+<suite name="Failed suite [Data driven testing]" parallel="tests">
+  <parameter name="expectedUrl" value="https://www.saucedemo.com/inventory.html"/>
   <parameter name="password" value="secret_sauce"/>
-  <parameter name="username" value="locked_out_user"/>
-  <test name="Locked out user test(failed)">
+  <parameter name="username" value="performance_glitch_user"/>
+  <test name="Performance user test(failed)" parallel="tests">
+    <parameter name="expectedUrl" value="https://www.saucedemo.com/inventory.html"/>
     <parameter name="password" value="secret_sauce"/>
-    <parameter name="username" value="locked_out_user"/>
+    <parameter name="username" value="performance_glitch_user"/>
     <classes>
       <class name="TestScripts.swagLabLoginData">
         <methods>
           <include name="endTest"/>
           <include name="endTest"/>
+          <include name="endTest"/>
+          <include name="endTest"/>
           <include name="validateLogin" invocation-numbers="0"/>
+          <include name="testSetup"/>
+          <include name="testSetup"/>
           <include name="testSetup"/>
           <include name="testSetup"/>
         </methods>
       </class> <!-- TestScripts.swagLabLoginData -->
     </classes>
-  </test> <!-- Locked out user test(failed) -->
+  </test> <!-- Performance user test(failed) -->
 </suite> <!-- Failed suite [Data driven testing] -->

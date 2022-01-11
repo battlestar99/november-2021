@@ -1,0 +1,63 @@
+Test Execution: 
+
+defect - log the defect 
+
+1. Test organize 
+2. Test pass/fail 
+3. Generate  report 
+4. Test suite 
+5. Data driven framework 
+6. Page object model 
+Testing Framework: 
+TestNG >> TDD - Test driven development 
+Cucumber >> BDD - Behaviour driven development 
+
+you write the expected behaviour of the application based on the requirement - those behaviour will be automated 
+
+non-technical - 
+feature file - test scenario - test steps
+
+step definition - implementation of the automation testing code 
+
+Given When Then And But 
+Feature: 
+
+Scneario: 
+
+Given user is on the login page 
+When user enters valid username
+And  user enters valid password 
+And user clicks on the login button
+Then user should be logged in to the page 
+
+
+Given user is on the login page 
+When user enters invalid username
+And  user enters invalid password 
+And user clicks on the login button
+Then user should be logged in to the page 
+But user is not able to login 
+
+each scenario is one test case - 
+
+@Test 
+public void validLogintest(){}
+
+what is gherkin language in feature files are the annotations in step definition file 
+
+pre-requirement the feature - background 
+hooks - to execute in multiple feature 
+
+step 1: going to the url 
+step 2: entering 
+
+
+
+
+
+
+
+
+
+
+
