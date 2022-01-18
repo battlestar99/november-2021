@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="testScript.Login2">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="login3"/>
+        </methods>
+      </class> <!-- testScript.Login2 -->
+      <class name="testScript.Login">
+        <methods>
+          <include name="login3"/>
+          <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testScript.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

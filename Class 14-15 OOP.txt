@@ -1,0 +1,93 @@
+Object Oriented Programming - 
+
+Object oriented Design - 
+
+Class and Object >> 
+
+Class : 
+main method >> this class can be run as a java application - Traditional programming concept 
+
+no main method >> class - code reusuability - block of code - 
+
+class you create in java - is actually datatype - reference datatype 
+
+int, String, double - primary datatype 
+
+WebElement - reference datatype 
+
+Class : prototype or design of a system 
+
+2 components : 
+what the system can do - method/functions
+what are the atributes or properties of the system - 
+
+static >> if a component is part of object or class 
+
+method overloading: two or multiple methods implemented with different parameters 
+
+constructor: executes as soon as an object is created 
+
+constructor overloading: multiple constructor with different parameters 
+
+
+
+Inside one class >> 
+
+class
+object
+properties
+methods 
+method overloading
+constructor
+constructor overloading
+static 
+
+Relationship between multiple 
+
+inheritance - two classes - properties and method
+parent class - super class
+child class - sub class 
+
+method overriding >> happens between multiple classes with child and parent relationship - if subclass or childclass has the same function as parent/ super class , childclass object has to use its own functions 
+
+super keyword: super keyword is used by childclass to access parent class function or constuctor
+
+
+abstract class >> if a class is abstract class, we can not create any object of the class - so the way to use this class is to create a child class and child class object will get everything from parent class 
+
+
+interface: is an outline of methods or properties those can be implemented by different classes 
+
+difference between abstract class and interface: 
+
+WebDriver driver = new Chromedriver();
+
+
+
+webdriver driver = new chromedriver(); 
+
+WebDriver is an interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

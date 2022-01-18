@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class loginPage {
 	
 	
-	
+	int a = 10;
 	
 	WebDriver internalDriver;
 		

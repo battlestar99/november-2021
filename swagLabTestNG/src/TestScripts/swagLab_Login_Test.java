@@ -37,7 +37,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\wo
 		
 	}
 	
-	@Test(priority=0) 
+	@Test(priority=0, groups = {"regression", "sanity"}) 
 	public void validateValidLogin() {
 		
 		WebElement username = driver.findElement(By.id("user-name"));
@@ -60,7 +60,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\wo
 	}
 	
 	
-	@Test(priority=1) 
+	@Test(priority=1, groups = "sanity") 
 	public void validateinValidLogin() {
 		
 		WebElement username = driver.findElement(By.id("user-name"));
@@ -83,7 +83,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\wo
 	}
 	
 	
-	@Test(priority=2) 
+	@Test(priority=2, groups = "smoke") 
 	public void validateprobUserLogin() {
 		
 		WebElement username = driver.findElement(By.id("user-name"));

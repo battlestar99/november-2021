@@ -23,7 +23,7 @@ public class stepDef {
 	
 	
 	WebDriver driver;
-	loginPage lp; 
+	loginPage lp;
 	homePage hp; 
 	inventoryPage ip; 
 	cartPage cp; 
@@ -106,6 +106,16 @@ public class stepDef {
 		lp.getpassword().sendKeys("secret_sauce");
 		
 		
+	}
+	
+	@When("^user enters valid password \"([^\"]*)\"$")
+	public void user_enters_valid_password(String password) throws Throwable {
+	    lp.getpassword().sendKeys(password);
+	}
+
+	@When("^user enters valid username \"([^\"]*)\"$")
+	public void user_enters_valid_username(String username) throws Throwable {
+	    lp.getUserName().sendKeys(username);
 	}
 
 	@When("^user clicks on the login button$")
