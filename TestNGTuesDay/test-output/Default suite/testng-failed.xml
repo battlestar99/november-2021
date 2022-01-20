@@ -5,8 +5,11 @@
     <classes>
       <class name="testScript.Login">
         <methods>
-          <include name="login"/>
+          <include name="login4"/>
+          <include name="login3"/>
+          <include name="login2"/>
           <include name="initializeBrowser"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- testScript.Login -->
     </classes>

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8225" started-at="2022-01-12T23:47:44Z" finished-at="2022-01-12T23:47:53Z">
+  <suite name="Suite" duration-ms="12540" started-at="2022-01-19T01:43:49Z" finished-at="2022-01-19T01:44:01Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="3250" started-at="2022-01-12T23:47:44Z" finished-at="2022-01-12T23:47:48Z">
+    <test name="Test1" duration-ms="1987" started-at="2022-01-19T01:43:49Z" finished-at="2022-01-19T01:43:51Z">
       <class name="testScript.Login2">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:testScript.Login2@222114ba]" name="initializeBrowser" is-config="true" duration-ms="2411" started-at="2022-01-12T18:47:44Z" finished-at="2022-01-12T18:47:47Z">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:testScript.Login2@222114ba]" name="initializeBrowser" is-config="true" duration-ms="1668" started-at="2022-01-18T20:43:49Z" finished-at="2022-01-18T20:43:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testScript.Login2@222114ba]" name="login" duration-ms="833" started-at="2022-01-12T18:47:47Z" finished-at="2022-01-12T18:47:48Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testScript.Login2@222114ba]" name="login" duration-ms="304" started-at="2022-01-18T20:43:50Z" finished-at="2022-01-18T20:43:51Z">
           <params>
             <param index="0">
               <value>
@@ -29,13 +29,13 @@
         </test-method> <!-- login -->
       </class> <!-- testScript.Login2 -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="3228" started-at="2022-01-12T23:47:44Z" finished-at="2022-01-12T23:47:48Z">
+    <test name="Test2" duration-ms="1663" started-at="2022-01-19T01:43:51Z" finished-at="2022-01-19T01:43:52Z">
       <class name="testScript.Login2">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:testScript.Login2@2ddc8ecb]" name="initializeBrowser" is-config="true" duration-ms="2496" started-at="2022-01-12T18:47:44Z" finished-at="2022-01-12T18:47:47Z">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:testScript.Login2@2ddc8ecb]" name="initializeBrowser" is-config="true" duration-ms="1363" started-at="2022-01-18T20:43:51Z" finished-at="2022-01-18T20:43:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testScript.Login2@2ddc8ecb]" name="login" duration-ms="726" started-at="2022-01-12T18:47:47Z" finished-at="2022-01-12T18:47:48Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testScript.Login2@2ddc8ecb]" name="login" duration-ms="298" started-at="2022-01-18T20:43:52Z" finished-at="2022-01-18T20:43:52Z">
           <params>
             <param index="0">
               <value>
@@ -53,13 +53,13 @@
         </test-method> <!-- login -->
       </class> <!-- testScript.Login2 -->
     </test> <!-- Test2 -->
-    <test name="Test3" duration-ms="3320" started-at="2022-01-12T23:47:44Z" finished-at="2022-01-12T23:47:48Z">
+    <test name="Test3" duration-ms="1914" started-at="2022-01-19T01:43:52Z" finished-at="2022-01-19T01:43:54Z">
       <class name="testScript.Login2">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:testScript.Login2@18ce0030]" name="initializeBrowser" is-config="true" duration-ms="2272" started-at="2022-01-12T18:47:44Z" finished-at="2022-01-12T18:47:47Z">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:testScript.Login2@18ce0030]" name="initializeBrowser" is-config="true" duration-ms="1499" started-at="2022-01-18T20:43:52Z" finished-at="2022-01-18T20:43:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testScript.Login2@18ce0030]" name="login" duration-ms="1034" started-at="2022-01-12T18:47:47Z" finished-at="2022-01-12T18:47:48Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testScript.Login2@18ce0030]" name="login" duration-ms="413" started-at="2022-01-18T20:43:54Z" finished-at="2022-01-18T20:43:54Z">
           <params>
             <param index="0">
               <value>
@@ -77,13 +77,13 @@
         </test-method> <!-- login -->
       </class> <!-- testScript.Login2 -->
     </test> <!-- Test3 -->
-    <test name="Test4" duration-ms="8224" started-at="2022-01-12T23:47:44Z" finished-at="2022-01-12T23:47:53Z">
+    <test name="Test4" duration-ms="6924" started-at="2022-01-19T01:43:54Z" finished-at="2022-01-19T01:44:01Z">
       <class name="testScript.Login2">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:testScript.Login2@54c562f7]" name="initializeBrowser" is-config="true" duration-ms="2404" started-at="2022-01-12T18:47:44Z" finished-at="2022-01-12T18:47:47Z">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:testScript.Login2@54c562f7]" name="initializeBrowser" is-config="true" duration-ms="1522" started-at="2022-01-18T20:43:54Z" finished-at="2022-01-18T20:43:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testScript.Login2@54c562f7]" name="login" duration-ms="5817" started-at="2022-01-12T18:47:47Z" finished-at="2022-01-12T18:47:53Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testScript.Login2@54c562f7]" name="login" duration-ms="5399" started-at="2022-01-18T20:43:56Z" finished-at="2022-01-18T20:44:01Z">
           <params>
             <param index="0">
               <value>

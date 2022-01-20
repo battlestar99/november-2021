@@ -50,6 +50,54 @@ hooks - to execute in multiple feature
 
 step 1: going to the url 
 step 2: entering 
+data driven framework in cucumber: 
+
+data table - feature
+
+	tags = {"@abc", "@smoke"}
+
+Test runner: 
+
+1. creating test suite 
+2. generating the report 
+
+assertionexception - 
+
+hard assertion: test fails, it will not continue with the whole test 
+
+softassertion: test fails, it will try to execute next step 
+
+Background: 
+
+Given dldjfldjfd 
+
+Hook: 
+
+@Before
+@After
+
+Tag: junit test cucumber - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

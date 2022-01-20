@@ -13,8 +13,7 @@ Feature: Signin feature
       | username                | password     |
       | standard_user           | secret_sauce |
       | locked_out_user         | secret_sauce |
-      | problem_user            | secret_sauce |
-      | performance_glitch_user | secret_sauce |
+
       
  Scenario Outline: Negetive testing
     Given user is in sign page
@@ -25,8 +24,6 @@ Feature: Signin feature
 
     Examples: 
       | username                | password     |
-      | standard_user           | secret_sauce |
-      | locked_out_user         | secret_sauce |
       | problem_user            | secret_sauce |
       | performance_glitch_user | secret_sauce |
 

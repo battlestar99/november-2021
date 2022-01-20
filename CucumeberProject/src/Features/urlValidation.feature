@@ -2,6 +2,7 @@
 
 Feature: Home page links
 
+@smoke12
 Scenario: Validating multiple links in the home page 
 
 Given user is in the home page 

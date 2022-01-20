@@ -1,6 +1,8 @@
 package package2;
 
-public class car {
+import oop.Parent;
+
+public class car extends Parent{
 	
 	// properties of the class or global variable
 	
@@ -23,6 +25,8 @@ public class car {
 	 // part of the class and not the object 
 	  
   }
+
+
   
 
 }

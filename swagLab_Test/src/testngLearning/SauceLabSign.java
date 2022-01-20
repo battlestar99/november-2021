@@ -15,21 +15,16 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
-public class SauceLabSign {
-	WebDriver driver;
-	loginPage lp;
+public class SauceLabSign extends baseClass {
+	//WebDriver driver;
+	//loginPage lp;
+	
 	@BeforeTest
 	public void testSetup() {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\workspace\\ProgrammingLibraries\\chromedriver.exe");
-	    
-		driver = new ChromeDriver();
-		 
-		driver.get("https://www.saucedemo.com/");
-		
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-		
-		lp = new loginPage(driver);
+		setupChromeDriver(); 
+		NavigateToUrl("https://www.saucedemo.com/");
+		setupPages();
 
 	}
 	
@@ -43,7 +38,7 @@ public class SauceLabSign {
 	
 	@AfterTest
 	public void closeBrowser() {
-		driver.quit();
+		quitBrowser();
 	}
 	
 }

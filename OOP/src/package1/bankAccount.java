@@ -10,7 +10,12 @@ public class bankAccount {
 	
 	static int countClient; 
 	
-	
+	 public bankAccount() {
+			
+			this.name=name; 
+			System.out.println("An object is created with name");
+			
+		}
 	
    public bankAccount(String name) {
 		
@@ -34,13 +39,14 @@ public class bankAccount {
 	
 	public void transferMoney() {
 		System.out.println("transferring money");
+		depositMoney();
 		
 	}
 	
 	
 	
 	
-	public void depositMoney() {
+	 void depositMoney() {
 		
 	System.out.println("depositing money");
 		

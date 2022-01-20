@@ -32,7 +32,7 @@ public class end_to_end_test {
 		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\workspace\\ProgrammingLibraries\\chromedriver.exe");
 	    
-		 driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		 lp = new loginPage(driver);
 		 x = 12; 
 		 ip = new inventoryPage(driver);

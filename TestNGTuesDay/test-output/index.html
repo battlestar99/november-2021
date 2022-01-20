@@ -180,7 +180,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;none&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
     &lt;parameter name=&quot;passWord&quot; value=&quot;secret_sauce&quot;/&gt;
     &lt;parameter name=&quot;userName&quot; value=&quot;standard_user&quot;/&gt;
@@ -259,24 +259,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'testScript.Login2')
-data.setCell(0, 3, 5817);
+data.setCell(0, 3, 5399);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login')
 data.setCell(1, 2, 'testScript.Login2')
-data.setCell(1, 3, 1034);
+data.setCell(1, 3, 413);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'login')
 data.setCell(2, 2, 'testScript.Login2')
-data.setCell(2, 3, 833);
+data.setCell(2, 3, 304);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'login')
 data.setCell(3, 2, 'testScript.Login2')
-data.setCell(3, 3, 726);
+data.setCell(3, 3, 298);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -307,33 +307,33 @@ return data;
                 <span class="method-name">initializeBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">login(standard_user, secret_sauce)</span>
+                <span class="method-start">1677 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test before">
                 <span class="method-name">initializeBrowser</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">2022 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">login(locked_out_user, secret_sauce)</span>
+                <span class="method-start">3385 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test before">
                 <span class="method-name">initializeBrowser</span>
-                <span class="method-start">1 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
-                <span class="method-name">initializeBrowser</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">3692 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">login(problem_user, secret_sauce)</span>
-                <span class="method-start">2283 ms</span>
+                <span class="method-start">5191 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeBrowser</span>
+                <span class="method-start">5614 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">login(performance_glitch_user, secret_sauce)</span>
-                <span class="method-start">2405 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">login(standard_user, secret_sauce)</span>
-                <span class="method-start">2413 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">login(locked_out_user, secret_sauce)</span>
-                <span class="method-start">2497 ms</span>
+                <span class="method-start">7137 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

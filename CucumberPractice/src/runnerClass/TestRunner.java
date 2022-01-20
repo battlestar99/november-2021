@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/Features",
 		glue = "stepDef",
-		tags = "@tests",
+		tags = "@run",
 		plugin = {"pretty","html:cucumber/report2"}
 		
 		

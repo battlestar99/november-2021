@@ -306,6 +306,37 @@ public class stepDef {
 		
 		
 	}
+	
+	
+	// -------------------------------------------------------
+	
+	
+	@When("^user enters username \"([^\"]*)\" in app$")
+	public void user_enters_username_in_app(String username) throws Throwable {
+	   
+		
+		lp.getUserName().sendKeys(username);
+		
+		
+		
+	}
+
+	@When("^user enters passsword \"([^\"]*)\" in app$")
+	public void user_enters_passsword_in_app(String password) throws Throwable {
+	    
+		lp.getpassword().sendKeys(password);
+	}
+
+	@Then("^user should be be able to login based on \"([^\"]*)\" in app$")
+	public void user_should_be_be_able_to_login_based_on_in_app(String expectedUrl) throws Throwable {
+	   
+		
+		String currenturl = driver.getCurrentUrl();
+		
+		Assert.assertEquals(expectedUrl, currenturl);
+		
+		
+	}
 
 
 

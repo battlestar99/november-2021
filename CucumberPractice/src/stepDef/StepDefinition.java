@@ -1,5 +1,7 @@
 package stepDef;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,26 +14,25 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class StepDefinition {
-WebDriver driver;
-	
-	
+
+	WebDriver driver;
+
 	@Before
 	public void init() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\workspace\\ProgrammingLibraries\\chromedriver.exe");
-		 driver = new ChromeDriver();
-		 
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Agile1Tech\\Desktop\\workspace\\ProgrammingLibraries\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
 	}
-	
+
+
+
 	@Given("^user is in signin page$")
 	public void user_is_in_signin_page() throws Throwable {
-		 driver.get("https://www.saucedemo.com/");
+		driver.get("https://www.saucedemo.com/");
 	}
-	
-	
-	
-	
-	
-	
+
 	@When("^user insert valid username \"([^\"]*)\"$")
 	public void user_insert_valid_username(String username) throws Throwable {
 		WebElement userName = driver.findElement(By.name("user-name"));
@@ -44,11 +45,6 @@ WebDriver driver;
 		passWord.sendKeys(password);
 	}
 
-	
-	
-	
-	
-	
 	@When("^user insert valid username$")
 	public void user_insert_valid_username() throws Throwable {
 		WebElement userName = driver.findElement(By.name("user-name"));
@@ -67,9 +63,9 @@ WebDriver driver;
 		loginButton.click();
 	}
 
-	@Then("^user should login$")
+	@Then("^user should logged in$")
 	public void user_should_login() throws Throwable {
-	   
+
 	}
 	
 	@After

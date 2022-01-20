@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
-  <test name="Test(failed)" parallel="none">
+  <parameter name="password" value="secret_sauce"/>
+  <parameter name="userName" value="performance_glitch_user"/>
+  <test name="Test1(failed)" parallel="none">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="userName" value="standard_user"/>
     <classes>
-      <class name="testScript.Login2">
-        <methods>
-          <include name="initializeBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="login3"/>
-        </methods>
-      </class> <!-- testScript.Login2 -->
       <class name="testScript.Login">
         <methods>
-          <include name="login3"/>
+          <include name="login" invocation-numbers="0"/>
           <include name="initializeBrowser"/>
-          <include name="closeBrowser"/>
         </methods>
       </class> <!-- testScript.Login -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)" parallel="none">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="userName" value="locked_out_user"/>
+    <classes>
+      <class name="testScript.Login">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- testScript.Login -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test3(failed)" parallel="none">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="userName" value="problem_user"/>
+    <classes>
+      <class name="testScript.Login">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- testScript.Login -->
+    </classes>
+  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite] -->

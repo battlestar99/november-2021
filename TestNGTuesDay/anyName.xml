@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+  <parameter name="userName" value="standard_user"></parameter>
+  <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+      <class name="testScript.Login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+  <parameter name="userName" value="locked_out_user"></parameter>
+  <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+      <class name="testScript.Login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test3">
+  <parameter name="userName" value="problem_user"></parameter>
+  <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+      <class name="testScript.Login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test4">
+  <parameter name="userName" value="performance_glitch_user"></parameter>
+  <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+      <class name="testScript.Login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

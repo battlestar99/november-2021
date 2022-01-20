@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-<suite name = "Smoke tests">
+<suite name="Smoke tests">
 
-<test name = "Smoke tests for releast 10.2">
+	<test name="Smoke tests for releast 10.2">
+		<groups>
+			<run>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestScripts.swagLab_Login_Test"></class>
 
-<classes> 
-
-<class name = "TestScripts.end_to_end_test"></class>
-<class name = "TestScripts.loginElementValidation"></class>
-<class name = "TestScripts.swagLab_Login_Test"></class>
-<class name = "TestScripts.swagLab_login_two"></class>
-
-
-
-</classes>
+		</classes>
 
 
-</test>
+	</test>
 
 </suite>
