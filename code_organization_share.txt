@@ -1,0 +1,283 @@
+Preparation: 
+
+1. manual testing 
+2. automation testing >> 
+TestNG and Cucumber structure 
+3. SQL and API 
+
+
+Code Organization, maintainance, share our code 
+
+Java-Selenium-TestNG 
+
+projects: 
+
+src>> 
+
+Testscripts 
+Page object models 
+Utility classes 
+XML files for test suites 
+
+
+Java-selenium - cucumber  
+
+Feature
+Sted def
+Page object model 
+Test runner - test suites and generating 
+
+Automation Tester >> 
+
+Build managment or project managment - Maven, Gradle, Ant 
+
+
+Sharing code to the team and company, version control - git, svn
+
+repository >> github, bitbucket 
+
+DevOPS - development + operation 
+
+dev server
+test server - test1- smoke testing
+test2 - regression
+staging server - UAT 
+production - www.agile1tech.com 
+
+CI/CD - contineous integration and contineous development 
+
+
+Build Managment system: Maven 
+
+quickstart >> junit 
+
+spring boot
+
+www.saucedemo.com 
+
+com.saucedemo
+
+www.DOT.gov 
+
+gov.dot.fmcsa
+
+dependencies >> programming libararies that your code is dependent 
+
+selenium 
+testng
+cucumber - 10 jar files 
+junit - 
+jcommendar - 
+apache poi - 
+
+dependency managment system >> 
+
+POM.XML 
+
+project object model >> 
+
+
+local repository >> 
+.m2
+
+central or web repository >> add any dependency in pom xml file 
+
+clean >> delete all the temporary file 
+
+install >> check all the dependencies and download them 
+
+generate-source>> jar file from your project 
+
+test>> is running a specific file 
+
+
+
+
+dependency managment >> pom.xml 
+
+clean
+install
+test 
+
+surefire plugin >> xml file, .java 
+compiler plugin 
+
+version control - git - set of commands that we use for version control 
+manage code in code repository 
+
+local machine - computer that you are using 
+
+code repository - web 
+
+
+any folder you can make it a git repository - 
+
+anik@agile1tech.com
+
+
+you add a commit and push the code to the repository 
+
+mutiple automattion testers are working >> 
+
+pull it first - pull for downloading update from the repository
+push - for uploading update to the repository 
+
+
+
+
+
+repo - commit 5 
+
+
+tester1 - commit 6 
+
+tester2 - commit 6
+
+push
+pull
+clone 
+
+scenario 1: 
+maven project
+project as git repository - git init, git remote 
+connect the locla repo to remote >> will be given by the community 
+when update code - push the code 
+when other programmer update code - pull the code 
+
+scenario 2: 
+maven project is already in the reposiroty 
+clone the maven project 
+import the project to eclipse
+start working on the project 
+push the code if you update
+pull the code if other progrmmers 
+
+
+
+
+
+git >> version control system - git commands
+
+github >> 
+bitbucket>>
+gitlab>>
+
+
+How you are running your tests? 
+
+local machine _ 
+
+running 1 test >> TestNG script, Cucumber feature 
+
+running a test suite >> TestNG XML, Junit Test runner >> smoke tests, 
+regression test 
+
+data driven - XML - creating multiple test with multiple sets data 
+- data table cucumber 
+
+maven >> 
+
+maven test >> pointing to the apptest.java file 
+
+surefire plugin 
+maven compiler plugin 
+
+
+
+
+
+as an automation tester >> 
+
+creating, updating tests in your local machine - run test scripts - test suite
+
+>> push the code to the repo - github 
+
+_____________________________________________________________
+devops - maintain manage codes servers deployment 
+
+remote server - jenkins 
+
+CI/CD pipeline >> contineous integration and contineous development 
+
+requirment
+test creation andd
+defect logging and tracking 
+Agile - scrum 
+
+SDLC >> agile - scrum 
+waterfall 
+
+planning/analyze, design, development, test, deploy, manage/maintaince
+
+agile - scrum - 
+
+jenkins can run tests, deploy application, email the resuls 
+
+github/bitbucket - code repository 
+
+jenkins - server - 
+
+jenkins >> CI/CD >> deploy the new code , run the tests and email the result 
+
+jenkins as remote server - 
+
+
+maven to run jenkins
+when to test - how to know about code deployment 
+
+
+maven test
+maven install
+maven clean
+
+testng test
+testng suite
+cucumber feature
+
+maven: 
+1. dependency managment
+2. project is importable 
+3. to run this project from remote server 
+
+git: 
+1. version control - keeping the copy of every version of code 
+
+github/bitbucket: supports the version control system git
+
+1. code repository - code is stored - you can not run code 
+
+jenkins: 
+1. running test from remote server
+2. creating CI/CD pipeline - deploy, tests, result email 
+
+git remote add origin 
+
+when to test - how to know about code deployment 
+
+deployment schedule - 
+tentative - 
+1. get an email from the devops - 
+2. stand up meeting 
+3. 
+
+
+jobs@agile1tech.com 
+
+tuesday
+wednesday
+
+anik@agile1tech.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
